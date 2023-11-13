@@ -1,2 +1,14 @@
-VimCrypt~03!¬Q2]÷À_/ïÏâËÂE‚¥ái³ÞÄK©)J˜9Í«’–¬„ÑR“ x÷è!àAÈ¶Ì4üƒùÌù4Ÿ_0>£‹äN“¼—b4
-œæ0ýŠ€Rkæ‡ê	ÄÇÃ®hÈ#ZÏ**ØþƒÕO‰Ü/£Ÿ‰OÃì°‹ÔÖw?úB%/ š”–¡}ŽÓ€”ù'O”n¯ƒh>_–›Ù†k `½ÓÆ:}é“ÙßWJŸ›Ã!h|¼"•ï!ë5Åíãh¦Ž´k‰“7-µa>IÏÐ1UÞBÓþI¬ÑË‚Å%úÁ¬^\fÍßwŒ¨4<“*c(±Þ~YØÌÿ‹ž¼	×Òñû¾ d®xÐüŠOù®Í
+pipeline {
+    agent any
+    options {
+        // Timeout counter starts AFTER agent is allocated
+        timeout(time: 1, unit: 'SECONDS')
+    }
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
