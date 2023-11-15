@@ -1,10 +1,10 @@
 pipeline {
     agent none
     stages {
-        stage('Example') {
+        stage('Build') {
         
             steps {
-                echo 'Hello World'
+                echo 'pipeline feita'
             }
         }
     }
