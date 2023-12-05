@@ -1,0 +1,35 @@
+/* CSS para a página de cadastro */
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5); /* cor branca transparente */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #00a0ff; /* cor azul */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0080cc; /* cor azul mais escuro */
+  }
+  
